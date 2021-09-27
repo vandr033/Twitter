@@ -1,32 +1,35 @@
-# Project 2 - Simple Tweet
+# Project 2 - Twitter part 2
+Twitter part 2 is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Simple Tweet is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
-
-Time spent: 12 hours spent in total
+Time spent: 24 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
--  User can **sign in to Twitter** using OAuth login
-- User can **view tweets from their home timeline**
-- User is displayed the username, name, and body for each tweet
-- User can refresh tweets timeline by pulling down to refresh
+- [x ] User can **compose and post a new tweet**
+  - [x ] User can click a “Compose” icon in the Action Bar on the top right
+  - [ x] User can then enter a new tweet and post this to twitter
+  - [ x] User is taken back to home timeline with **new tweet visible** in timeline
+  - [ x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [ x] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
 The following **optional** features are implemented:
 
-- User can view more tweets as they scroll with infinite pagination
-- Improve the user interface and theme the app to feel "twitter branded"
+- [x ] User is using **"Twitter branded" colors and styles**
+- [ ] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://submissions.us-east-1.linodeobjects.com/android_university/qQ0acxJo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://submissions.us-east-1.linodeobjects.com/android_university/VCGhwgz9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+
+Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
